@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Header, Footer, MovieCard} from './components/index'
+import {Header, Footer} from './components/index'
 import { AllRoutes } from './Routes/AllRoutes'
 import './App.css'
 import './index.css'

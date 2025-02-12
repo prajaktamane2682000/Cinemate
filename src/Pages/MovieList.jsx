@@ -12,18 +12,12 @@ export const MovieList = ({apiPath, title}) => {
       })
 
   return (
-    
     <main>
-    
-      
-
           <section className='max-width-7xl mx-auto py-7'>
             <div className='flex justify-start flex-wrap other:justify-evenly'>
-              {movies.map((movie)=>(<Card key={movie.id} movie={movie}/> ))}
-              
+              {movies.map((movie)=>(<Card key={movie.id} movie={movie}/> ))} 
             </div>   
-          </section>
-        
+          </section>  
       </main>
   )
 }
